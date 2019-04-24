@@ -79,7 +79,7 @@ class BoostUnorderedCommon:
 class BoostUnorderedMapPrinter(BoostUnorderedCommon):
     """Pretty Printer for boost::unordered_map and boost::unordered_multimap (Boost.Unordered)"""
     printer_name = 'boost::unordered_map'
-    min_supported_version = (1, 58, 0)
+    min_supported_version = (1, 57, 0)
     max_supported_version = last_supported_boost_version
     template_name = ['boost::unordered::unordered_map', 'boost::unordered::unordered_multimap']
 
@@ -106,7 +106,7 @@ class BoostUnorderedMapPrinter(BoostUnorderedCommon):
 class BoostUnorderedSetPrinter(BoostUnorderedCommon):
     """Pretty Printer for boost::unordered_map and boost::unordered_multimap (Boost.Unordered)"""
     printer_name = 'boost::unordered_set'
-    min_supported_version = (1, 58, 0)
+    min_supported_version = (1, 57, 0)
     max_supported_version = last_supported_boost_version
     template_name = ['boost::unordered::unordered_set', 'boost::unordered::unordered_multiset']
 
@@ -131,7 +131,7 @@ class BoostUnorderedSetPrinter(BoostUnorderedCommon):
 class BoostUnorderedIterator:
     """Pretty Printer for unordered container iterators (Boost.Unordered)"""
     printer_name = 'boost::unordered::iterator'
-    min_supported_version = (1, 58, 0)
+    min_supported_version = (1, 57, 0)
     max_supported_version = last_supported_boost_version
     template_name = ['boost::unordered::iterator_detail::iterator', 'boost::unordered::iterator_detail::c_iterator']
 
